@@ -24,10 +24,10 @@
     grid-column: 2/4; /*o segundo card irá iniciar na linha 2 e terminar na linha 4*/
     
     & > div{
-      max-width: 16rem;
+      max-width: 16rem; /*colocando uma largura maxima para a div que está guardando as palavras*/
     }
 
-    & .desktop-only {
+    & .desktop-only {/*posicionando a imagem*/
       bottom: 2rem;
       right: 2rem;
     }
